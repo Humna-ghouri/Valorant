@@ -1,0 +1,149 @@
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ensure the height is equal to the viewport height */
+    overflow: hidden; /* Hide any content overflowing the container */
+  }
+  
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the video stays behind the content */
+  }
+  
+  .background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire container */
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #e55656;
+  }
+  
+  /* Optional: Ensure the page itself doesn't scroll */
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Hide horizontal overflow */
+  }
+  
+  /* Media Queries */
+  
+  /* For screens smaller than 1024px */
+  @media (max-width: 1024px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1.3rem;
+    }
+  
+    .cta-button {
+      font-size: 1.1rem;
+      padding: 12px 25px;
+    }
+  }
+  
+  /* For screens smaller than 768px */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1.1rem;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  }
+  
+  /* For screens smaller than 480px */
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 1.8rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      font-size: 0.9rem;
+      padding: 8px 18px;
+    }
+  }
+  
+  /* For screens smaller than 320px */
+  @media (max-width: 320px) {
+    .hero-title {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  
+    .hero-subtitle {
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+  
+    .cta-button {
+      font-size: 0.8rem;
+      padding: 6px 16px;
+    }
+  }
+  
+  /* For screens smaller than 230px */
+  @media (max-width: 230px) {
+    .hero-title {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+  
+    .hero-subtitle {
+      font-size: 0.7rem;
+      margin-bottom: 15px;
+    }
+  
+    .cta-button {
+      font-size: 0.7rem;
+      padding: 5px 12px;
+    }
+  }
+  
