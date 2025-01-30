@@ -1,4 +1,3 @@
-// import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa'; // for social media icons
 import "./Footer.css";
 
 
