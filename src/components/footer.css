@@ -64,15 +64,19 @@ Footer {
   }
   
   .social-media a:hover {
-    color: #0073e6; 
+    color: #e8ecf0; 
   }
   
   footer p {
     margin-top: 10px;
     text-align: center;
-    color: #555;
+    color: #cdc6c6;
   }
-  
+  footer h2 {
+    color: #555;
+    font-weight: bolder;
+  }
+
   
   @media (max-width: 1024px) {
     .footer-top {

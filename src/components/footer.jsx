@@ -1,4 +1,5 @@
-import "./components/footer";
+import React from "react";
+import "./footer.css"
 
 
 function Footer() {
@@ -6,7 +7,7 @@ function Footer() {
         <footer>
         <div className="footer-top">
           <div className="footer-link-group">
-            <h3>GAME</h3>
+            <h2>GAME</h2>
             <ul>
               <li><a href="#">Play Now</a></li>
               <li><a href="#">About</a></li>
@@ -16,7 +17,7 @@ function Footer() {
             </ul>
           </div>
           <div className="footer-link-group">
-            <h3>SUPPORT</h3>
+            <h2>SUPPORT</h2>
             <ul>
               <li><a href="#">Help Center</a></li>
               <li><a href="#">Support Articles</a></li>
@@ -25,7 +26,7 @@ function Footer() {
             </ul>
           </div>
           <div className="footer-link-group">
-            <h3>LEGAL</h3>
+            <h2>LEGAL</h2>
             <ul>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Terms of Service</a></li>

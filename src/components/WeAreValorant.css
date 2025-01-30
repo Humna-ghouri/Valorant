@@ -1,17 +1,15 @@
-/* Container for the entire section */
-/* Container for the entire section */
 .we-are-valorant {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: rgb(30, 29, 29);
     height: 100vh;
     padding: 0 20px;
     box-sizing: border-box;
-    overflow: hidden; /* Prevent overflow */
+    overflow: hidden; 
+   
   }
   
-  /* Content wrapper to hold both text and image */
   .content-wrapper {
     display: flex;
     justify-content: space-between; /* This will place text on the left and image on the right */
@@ -39,8 +37,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 20px;
-    color: #1a1a1a; /* Dark color for title */
-  }
+    color: white;  }
   
   /* Section Subtitle */
   .section-subtitle {
@@ -54,8 +51,7 @@
   .section-description {
     font-size: 1.3rem;
     line-height: 1.8;
-    color: #333; /* Dark text for better readability */
-    margin-bottom: 30px;
+    color: white;    margin-bottom: 30px;
     font-weight: 300;
   }
   
@@ -80,12 +76,12 @@
   }
   
   /* Right side image */
-  .image-content {
+  .image-content img {
     max-width: 300px; /* Adjust the size of the image */
-    width: 100%;
+    width: 500px;
     height: auto;
     border-radius: 8px;
-    margin-left: 50px; /* Add space between text and image */
+    margin-left: 100px; /* Add space between text and image */
   }
   
   /* Section image */
@@ -115,6 +111,11 @@
       padding: 12px 25px;
       font-size: 1.1rem;
     }
+    .image-content img{
+align-items: center;   
+justify-content: center;
+margin-left: 300px; 
+}
   
     /* Adjust layout */
     .content-wrapper {
@@ -173,6 +174,12 @@
       max-width: 250px;
       margin-left: 0;
     }
+    .image-content img{
+      align-items: center;   
+      justify-content: center;
+      margin-left: 100px; 
+      }
+      
   }
   
   /* Extra small screens: max-width 480px */

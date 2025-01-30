@@ -1,15 +1,15 @@
 .maps-section {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Content and image on either side */
-    height: 400px; /* Adjust the section height as needed */
-    background-color: white; /* Set the background to white */
+    justify-content: space-between; 
+    height: 500px; 
+    background-color: #171616; 
     padding: 50px;
   }
   
   .content {
     max-width: 50%; /* Adjust the width of the content */
-    color: black;
+    color: rgb(250, 249, 249);
     margin-left: 90px;
   }
   
@@ -44,11 +44,17 @@
     background-color: #96dbe2; /* Hover effect */
   }
   
-  .image img {
-    max-width: 65%; /* Adjust the image size */
+  /* .image img {
+    max-width: 65%;
     height: auto;
-    object-fit: cover; /* Ensure image covers space without distortion */
+    object-fit: cover; 
     margin-left: 80px;
+  } */
+  .image img {
+    height: 400px; 
+    width: auto; 
+    margin-right: 200px;
+    margin-bottom: 60px;
   }
   
   /* Responsive Media Queries */

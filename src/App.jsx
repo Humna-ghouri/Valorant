@@ -7,7 +7,7 @@ import CollisionEpisode from './components/CollisionEpisode';
 import WeAreValorant from './components/WeAreValorant';
 import YourAgents from './components/YourAgents';
 import YourMaps from './components/YourMaps';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 import Arsenal from './components/Arsenal';
 import Users from './components/Users'
 function App() {
